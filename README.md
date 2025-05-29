@@ -28,6 +28,7 @@ A clean and modular **.NET 7 Web API** for user authentication using **JWT (JSON
 - Response:
 ```json
 {
+  "message": "User has been created successfully",
   "token": "JWT_TOKEN_STRING"
 }
 ```
@@ -44,6 +45,7 @@ A clean and modular **.NET 7 Web API** for user authentication using **JWT (JSON
 - Response:
 ```json
 {
+  "message": "Login Successful",
   "token": "JWT_TOKEN_STRING"
 }
 ```
