@@ -53,7 +53,7 @@ A clean and modular **.NET 7 Web API** for user authentication using **JWT (JSON
 ## API Testing (Swagger UI)
 
 - Launch the API
-- Navigate to: `https://localhost:{port}/swagger`
+- Navigate to: `https://localhost:7111/swagger`
 - Use **Try it out** to test `/register` and `/login`
 - Copy the token returned from login
 - Click **Authorize** and Enter:
@@ -94,7 +94,7 @@ Update-Database -Project Auth.Infrastructure -StartupProject Auth.API
 dotnet run --project Auth.API
 ```
 
-Visit `https://localhost:{port}/swagger` in your browser.
+Visit `https://localhost:7111/swagger` in your browser.
 
 
 ## Sample Users
